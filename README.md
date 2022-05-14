@@ -110,7 +110,7 @@ def gate1(image):
         frame_x = int(frame.shape[1]/2)
         frame_y = int(frame.shape[0]/2)
         for i in range(len(center_arcuo)):
-            cv.circle(frame, (center_arcuo[i][0],center_arcuo[i][1]), 80, (0, 0, 255), 30, 8, 0)
+            cv.circle(frame, (center_arcuo[i][0],center_arcuo[i][1]), 8, (0, 0, 255), 3, 8, 0)
         cv.circle(frame, (center_x,center_y), 8, (0, 0, 255), 10, 8, 0)
         cv.circle(frame, (frame_x,frame_y), 8, (255, 255, 0), 10, 8, 0)
         cv.line(frame, (frame_x,frame_y), (center_x,center_y), (0, 255, 0), 2, 4)
@@ -119,7 +119,7 @@ def gate1(image):
 
         if corner_ids == 10:
             flag=1
-            # cv.rectangle(frame, (x, y), (x+w, y+h), (0, 255, 0), 2)
+            cv.rectangle(frame, (x, y), (x+w, y+h), (0, 255, 0), 2)
 
         return frame, center_x,center_y,flag,w,h    
     else:
