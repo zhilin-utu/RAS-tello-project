@@ -31,6 +31,27 @@ order_list=[2,1,3]
 ```
 python3 multithreading.py
 ```
+## Live drone footage in another thread
+```
+def videoplayer():
+    
+    while keepRecording:
+        
+        image1 = frame_read.frame
+        if order_list[0]==1:
+            image1, cc_x,cc_y, flag, weight,height = gate1(image1)
+        elif order_list[0]==2:
+            image1, cc_x,cc_y, flag, weight,height = gate2(image1)
+        elif order_list[0]==3:
+            image1, cc_x,cc_y, flag, weight,height = gate3(image1)
+
+        key = cv.waitKey(1) & 0xff
+        if key == 27: # ESC
+            break
+        cv.imshow("drone", image1)
+```
+
+
 ### Detection algorithm of Gate1
 ```
 from img_process import gate1
