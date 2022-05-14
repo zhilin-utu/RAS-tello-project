@@ -148,6 +148,8 @@ def gate2(image):
 ```
 from img_process import gate3
 ```
+
+```
 def gate3(img):
     flag=0
     hsv = cv.cvtColor(img, cv.COLOR_BGR2HSV)
@@ -196,6 +198,4 @@ def gate3(img):
             cv.circle(img,(center_x,center_y),2,(0,255,0),2,8,0)
             cv.putText(img,'center',(center_x,center_y),cv.FONT_HERSHEY_SIMPLEX,1.00,(0,0,255),2)
         return img, center_x, center_y, flag, None, height
-```
-
 ```
