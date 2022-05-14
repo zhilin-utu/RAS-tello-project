@@ -24,3 +24,10 @@ from img_process import gate2
 ```
 from img_process import gate3
 ```
+| WMR Model (WASD Control)                                                     | WMR PID                                                                               | WMR Pure Pursuit                                                                                        |
+| ---------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| [<img src="images/lab1/wmr_model.gif" width=250>](lab1/program/wmr_model.py) | [<img src="images/lab1/wmr_pid.gif" width=250>](lab1/program/PathTracking/wmr_pid.py) | [<img src="images/lab1/wmr_pure_pursuit.gif" width=250>](lab1/program/PathTracking/wmr_pure_pursuit.py) |
+
+| Bicycle Model (WASD Control)                                                         | Bicycle Pure Pursuit                                                                                            | Bicycle Stanley                                                                                       |
+| ------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| [<img src="images/lab1/bicycle_model.gif" width=250>](lab1/program/bicycle_model.py) | [<img src="images/lab1/bicycle_pure_pursuit.gif" width=250>](lab1/program/PathTracking/bicycle_pure_pursuit.py) | [<img src="images/lab1/bicycle_stanley.gif" width=250>](lab1/program/PathTracking/bicycle_stanley.py) |
