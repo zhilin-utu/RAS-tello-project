@@ -1,5 +1,5 @@
 # RAS-tello-project
 RAS tello project
-``` shell
+``` python
 cd home
 ```
