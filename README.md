@@ -8,6 +8,8 @@ Gate 2 is a full green rectangle, we first extract the green components of the i
 ## Gate 3
 Gate 3 includes 4 green corners, similar with Gate 2, we extract the green components and detect 4 largest rectangle edges.
 # Results
+### Videos
+https://www.youtube.com/watch?v=z4XwT0xVGeo&list=PLy-cBTngSiqcw5o-y7zV4n6FyPzi9qvTa&index=1
 | Gate1                                                         | Gate2                                                                                           | Gate3                                                                                       |
 | ------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
 | <img src="img/gate1.gif" width=400>| <img src="img/gate2.gif" width=400> | <img src="img/gate3.gif" width=400>|
