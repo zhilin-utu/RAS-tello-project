@@ -10,7 +10,7 @@ Gate 3 includes 4 green corners, similar with Gate 2, we extract the green compo
 # Results
 | Videos |
 | ------------------------------------------------------------------------------------ | 
-| https://www.youtube.com/watch?v=z4XwT0xVGeo&list=PLy-cBTngSiqcw5o-y7zV4n6FyPzi9qvTa&index=1 |
+|                       https://www.youtube.com/watch?v=z4XwT0xVGeo&list=PLy-cBTngSiqcw5o-y7zV4n6FyPzi9qvTa&index=1 |
 
 
 
