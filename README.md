@@ -13,3 +13,14 @@ Gate 3 includes 4 green corners, similar with Gate 2, we extract the green compo
 python3 multithreading.py
 ```
 ## Detection algorithm of Gate1
+```
+from img_process import gate1
+```
+## Detection algorithm of Gate2
+```
+from img_process import gate2
+```
+## Detection algorithm of Gate3
+```
+from img_process import gate3
+```
