@@ -28,6 +28,6 @@ from img_process import gate3
 | ---------------------------------------------------------------------------- | 
 |<img src="img/gate2.gif" width=300>|
 
-| Bicycle Model (WASD Control)                                                         | Bicycle Pure Pursuit                                                                                            | Bicycle Stanley                                                                                       |
+| Gate1                                                         | Gate2                                                                                           | Gate3                                                                                       |
 | ------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
-| [<img src="images/lab1/bicycle_model.gif" width=250>](lab1/program/bicycle_model.py) | [<img src="images/lab1/bicycle_pure_pursuit.gif" width=250>](lab1/program/PathTracking/bicycle_pure_pursuit.py) | [<img src="images/lab1/bicycle_stanley.gif" width=250>](lab1/program/PathTracking/bicycle_stanley.py) |
+| <img src="img/gate1.gif" width=400>| <img src="img/gate2.gif" width=400> | <img src="img/gate3.gif" width=400>|
