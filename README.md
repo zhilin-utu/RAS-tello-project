@@ -17,6 +17,16 @@ Gate 3 includes 4 green corners, similar with Gate 2, we extract the green compo
 | <img src="img/pass 3 gates.gif" width=2000>|
 
 # How to use
+## Before using
+change the order_list, if you want to go though gate2:
+```
+order_list=[2]
+```
+if you want go though Gate 2, Gate 1 and Gate 3 in order:
+```
+order_list=[2,1,3]
+```
+
 ## Run the main code
 ```
 python3 multithreading.py
