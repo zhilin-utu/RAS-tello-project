@@ -7,6 +7,11 @@ Gate 1 includes 4 arcuo codes, we need to decect all the arcuo codes and calcula
 Gate 2 is a full green rectangle, we first extract the green components of the image frame, and then use edge detection to get the max green rectangle. Similarly, calculate 2 center points and do path and motion planing.
 ## Gate 3
 Gate 3 includes 4 green corners, similar with Gate 2, we extract the green components and detect 4 largest rectangle edges.
+# Results
+| Gate1                                                         | Gate2                                                                                           | Gate3                                                                                       |
+| ------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| <img src="img/gate1.gif" width=400>| <img src="img/gate2.gif" width=400> | <img src="img/gate3.gif" width=400>|
+
 # How to use
 ## Run the main code
 ```
@@ -24,10 +29,3 @@ from img_process import gate2
 ```
 from img_process import gate3
 ```
-| WMR Model (WASD Control)                                                     |                                                                           
-| ---------------------------------------------------------------------------- | 
-|<img src="img/gate2.gif" width=300>|
-
-| Gate1                                                         | Gate2                                                                                           | Gate3                                                                                       |
-| ------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
-| <img src="img/gate1.gif" width=400>| <img src="img/gate2.gif" width=400> | <img src="img/gate3.gif" width=400>|
