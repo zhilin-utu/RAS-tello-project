@@ -154,13 +154,3 @@ def gate3(img):
             cv.circle(img,(center_x,center_y),2,(0,255,0),2,8,0)
             cv.putText(img,'center',(center_x,center_y),cv.FONT_HERSHEY_SIMPLEX,1.00,(0,0,255),2)
         return img, center_x, center_y, flag, None, height
-
-
-im = cv.imread('WhatsApp Image 2022-05-14 at 2.52.18 PM(1).jpeg')        
-# im1=gate1(im)
-im1, cc_x,cc_y, flag, weight,height = gate1(im)
-
-
-cv.imwrite('1.png',im1)
-# cv.imshow('doe',im1)
-# cv.waitKey(0)
