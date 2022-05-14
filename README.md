@@ -3,6 +3,6 @@ RAS tello project
 ``` 
 cd home
 ```
-![image](https://user-images.githubusercontent.com/98171632/168423121-19644950-4dea-499b-ae8d-69c5a097966b.png)
+/home/zhilin/RAS/common preject/tello-project/WhatsApp Image 2022-05-14 at 4.34.10 PM.jpeg
 
 
