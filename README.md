@@ -158,7 +158,7 @@ def gate2(image):
                     max = area
                     index = c
             if index >= 0:
-                rect = cv.minAreaRect(contours[index])
+                rect = cv.minAreaRect(contours[index]) 
                 width=rect[1][0]
                 height=rect[1][1]
                 mianji = width*height
